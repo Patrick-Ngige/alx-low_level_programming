@@ -21,8 +21,7 @@ if (i < 89 && (i / 10) < (i % 10))
 putchar(',');
 putchar(' ');
 }
-else
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }
