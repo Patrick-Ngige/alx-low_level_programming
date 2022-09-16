@@ -1,8 +1,8 @@
 #include "main.h"
-
+#include "_putchar.c"
 /**
  * _isupper - checks whether the character is upper
- *@c: the character input
+ *@c:the character input
  * Return: 0
  */
 int _isupper(int c)
