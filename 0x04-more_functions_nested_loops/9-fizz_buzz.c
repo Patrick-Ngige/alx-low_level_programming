@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - multiples of 3 print Fizz, multiples of five Buzz, mutltiples of both FizzBuzz
- *
+ * main - multiples of 3 print Fizz, multiples of five Buzz
+ * multiples of both FizzBuzz
  * Return: 0 is success
  */
 int main(void)
