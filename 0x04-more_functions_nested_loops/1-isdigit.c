@@ -9,10 +9,12 @@ int _isdigit(int n)
 {
 if (n >= 48 && n <= 57)
 {
-return (1);
+_putchar(1);
+_putchar('\n');
 }
 else
 {
-return (0);
+_putchar(0);
+_putchar('\n');
 }
 }

@@ -2,10 +2,10 @@
 
 /**
  * _isupper - checks whether the character is upper
- *@n: the character input
+ *@c: the character input
  * Return: 0
  */
-int _isupper(int n)
+int _isupper(int c)
 {
 if (c >= 65 && c <= 90)
 {
