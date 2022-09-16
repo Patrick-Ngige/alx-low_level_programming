@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _triangle - main function
- *@size: input to check
+ * print_triangle - main function
+ * @size: input to check
  *
  * Return: No return data
  */
