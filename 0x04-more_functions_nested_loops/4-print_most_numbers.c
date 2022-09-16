@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * print_most_numbers - outputs a sequence from 0 to 9 with exception of 2 and 4
+ * print_most_numbers - outputs a sequence from 0 to 9
+ *with exception of 2 and 4
  * Return: no returns
  */
 void print_most_numbers(void)
