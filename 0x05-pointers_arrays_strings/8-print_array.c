@@ -9,7 +9,7 @@
  */
 void print_array(int *a, int n)
 {
-int printer:
+int printer;
 for (printer = 0; printer < n; printer++)
 {
 printf("%d", *(a + printer));
