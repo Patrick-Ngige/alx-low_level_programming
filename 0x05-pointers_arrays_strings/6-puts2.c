@@ -13,7 +13,12 @@ count = 0;
 while (str[count] != '\0')
 {
 _putchar(*(str + count));
-count = count + 2;
+count = count + 1;
+if (str[count] == '\0')
+{
+break;
+count = count + 1;
 }
+count = count - 2;
 _putchar('\n');
 }
