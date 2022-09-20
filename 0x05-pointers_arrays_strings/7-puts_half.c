@@ -7,24 +7,16 @@
  */
 void puts_half(char *str)
 {
-int counter;
-int half_counter;
-for (counter = 0; str[counter] != '\0'; counter++)
+int j, i = 0;
+while (*(str + i))
+	i++;
+j = i / 2;
+if (i % 2)
+	j += 1;
+while (j < i)
 {
+	_putchar(*(str + j));
+	j++;
 }
-if (counter % 2 == 0)
-{
-half_counter = counter / 2;
-}
-else
-{
-half_counter = ((counter + 1) / 2);
-counter--;
-}
-for (; half_counter <= counter; half_counter++)
-{
-	_putchar(*(str + half_counter));
-}
-half_counter--;
 _putchar('\n');
 }
