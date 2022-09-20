@@ -30,7 +30,8 @@ saver = saver + (*(n + index) - '0');
 }
 index++;
 }
+index++;
+}
 saver *= symbol;
 return (saver);
-}
 }
