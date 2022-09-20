@@ -8,18 +8,12 @@
  */
 void puts2(char *str)
 {
-int count;
-count = 0;
-while (str[count] != '\0')
+int i = 0;
+
+while (*(str + i))
 {
-_putchar(*(str + count));
-count = count + 1;
-if (str[count] == '\0')
-{
-break;
-count = count + 1;
+_putchar(*(str + i));
+i = i + 2;
 }
-count = count - 2;
 _putchar('\n');
-}
 }
