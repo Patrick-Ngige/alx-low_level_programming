@@ -7,13 +7,14 @@
  */
 void print_rev(char *n)
 {
-int count;
-for (count = 0; n[count] != '\0'; count++)
+int i = 0;
+while (*(n + i))
+	i++;
+i = i - 1;
+while (i >= 0)
 {
-}
-for (; count >= 0; count--)
-{
-_putchar(*(n + count));
+	_putchar(*(s + i));
+	i--;
 }
 _putchar('\n');
 }
