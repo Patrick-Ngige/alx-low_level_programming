@@ -7,17 +7,18 @@
  */
 void rev_string(char *n)
 {
-int count;
-char memo[100];
-int index = 0;
-for (count = 0; n[count] != '\0'; count++)
+int i = 0, j = 0;
+char str[500];
+while (*(n + i))
 {
-memo[count] = *(n + count);
+	*(str + i) = *(n + i);
+	i++;
 }
-count--;
-for (; count >= 0; count--)
+i = i - 1;
+while (i >= 0)
 {
-*(n + index) = *(memo + count);
-index++;
+	*(n + i) = *(str + j);
+	j++;
+	i--;
 }
 }
