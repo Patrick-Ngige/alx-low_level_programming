@@ -9,14 +9,14 @@
  */
 void print_array(int *a, int n)
 {
-int printer;
-for (printer = 0; printer < n; printer++)
+int i;
+while (i < n)
 {
-printf("%d", *(a + printer));
-if (printer < n - 1)
-{
-printf(",");
+	printf("%d", a[i]);
+	if (i < (n - 1))
+		printf(", ");
+	i++;
 }
 printf("\n");
 }
-}
+
