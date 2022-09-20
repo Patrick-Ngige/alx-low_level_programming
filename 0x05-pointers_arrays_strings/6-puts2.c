@@ -12,7 +12,7 @@ int i = 0;
 while (*(str + i))
 {
 _putchar(*(str + i));
-i = i + 2;
+i = i + 1;
 }
 _putchar('\n');
 }
