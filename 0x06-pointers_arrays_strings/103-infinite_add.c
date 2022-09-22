@@ -10,7 +10,8 @@
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	int i, j, k, l, m, n;
+	int i, j, k, l, m, n;i
+
 
 	for (i = 0; n1[i]; i++)
 		;
