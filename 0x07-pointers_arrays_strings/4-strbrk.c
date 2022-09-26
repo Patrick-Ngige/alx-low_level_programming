@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * _strbrk - a function that searches a string for any of a set of bytes
+ * _strpbrk - a function that searches a string for any of a set of bytes
  * @s: string to check
  * @accept:string to be checked
- * Return: pointer to the byte
+ * @NULL:returns if byte is not present
+ * Return: NULL
  */
-char *_strbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	unsigned int i = 0, j = 0;
 
@@ -18,5 +19,5 @@ char *_strbrk(char *s, char *accept)
 				return (&(s[i]));
 		}
 	}
-	return (s);
+	return (0);
 }
