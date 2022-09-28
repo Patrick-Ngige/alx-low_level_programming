@@ -4,7 +4,7 @@
  * sqrt_check - find the square root
  * @n: number to squareroot
  * @m: number to check if it's the sqrt of n
- * Return; the sqrt value
+ * Return: the sqrt value
  */
 int sqrt_check(int n, int m)
 {
