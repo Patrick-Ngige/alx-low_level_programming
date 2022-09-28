@@ -10,7 +10,7 @@ int sqrt_check(int n, int m)
 {
 	if (m * m == n)
 		return (m);
-	else if (m => n / 2)
+	else if (m >= n / 2)
 		return (-1);
 	return (sqrt_check(n, m + 1));
 }
