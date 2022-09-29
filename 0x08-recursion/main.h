@@ -18,3 +18,10 @@ int is_prime_number(int n);
 
 int get_prime(int n, int i);
 
+int is_palindrome(char *s);
+
+int _get_rev(char *s, char *d);
+
+int compare(char *s1, char *s2);
+
+
