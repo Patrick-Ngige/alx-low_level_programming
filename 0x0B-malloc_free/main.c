@@ -1,8 +1,25 @@
-#include "main.h"                                                                                                        
+#nclude "main.h"
 
-int main(void)                                                
+
+
+
+
+
+
+int main(void)
+
+
+
 {
-	_puts("\"At the end of the day, my goal was to be 
+
+
+
+	            _puts("\"At the end of the day, my goal was to be
+
 				    the best hacker\"\n\t- Kevin Mitnick");
-       	return (0);
-}
+
+
+
+		                    return (0);
+
+
