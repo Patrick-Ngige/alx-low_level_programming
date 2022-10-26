@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * listing_len - a function that returns the length of a list
+ * listint_len - a function that returns the length of a list
  * @h: pointer to the head of a list
  * Return:length (INT) of a list
  */
